@@ -1,0 +1,117 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- list_item.xml first Linear layout style -->
+    <style name="firstLinearLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/box_layout</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingStart">16dp</item>
+    </style>
+
+    <!-- list_item.xml second Linear layout style -->
+    <style name="secondLinearLayoutStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- list_item.xml text view section name style-->
+    <style name="sectionNameTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@color/very_light_grey</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- list_item.xml text view web title style-->
+    <style name="webTitleTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textColor">@color/very_dark_grey</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <!-- list_item.xml third Linear layout style -->
+    <style name="thirdLinearLayoutStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- list_item.xml text view author style-->
+    <style name="authorTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@color/very_light_grey</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">casual</item>
+    </style>
+
+    <!-- list_item.xml text view date style-->
+    <style name="dateTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">end</item>
+        <item name="android:textColor">@color/very_light_grey</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">casual</item>
+    </style>
+
+    <!-- list_item.xml text view time style-->
+    <style name="timeTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">end</item>
+        <item name="android:textColor">@color/very_light_grey</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">casual</item>
+    </style>
+
+    <!-- activity_news_app_main.xml heading text view style-->
+    <style name="headingTextViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/very_light_grey</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <!-- activity_news_app_main.xml list List view style-->
+    <style name="listListViewStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:dividerHeight">10.0sp</item>
+    </style>
+
+</resources>

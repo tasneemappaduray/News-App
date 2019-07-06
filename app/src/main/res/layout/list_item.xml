@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/firstLinearLayoutStyle">
+
+    <LinearLayout
+        style="@style/secondLinearLayoutStyle">
+
+        <TextView
+            android:id="@+id/section_name"
+            style="@style/sectionNameTextViewStyle"
+            tools:text="Section ID" />
+
+        <TextView
+            android:id="@+id/web_title"
+            style="@style/webTitleTextViewStyle"
+            tools:text="Web Title" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/thirdLinearLayoutStyle">
+
+        <TextView
+            android:id="@+id/author"
+            style="@style/authorTextViewStyle"
+            tools:text="C.App" />
+
+        <TextView
+            android:id="@+id/date"
+            style="@style/dateTextViewStyle"
+            tools:text="Mar 6, 2010" />
+
+        <TextView
+            android:id="@+id/time"
+            style="@style/timeTextViewStyle"
+            tools:text="3:00 PM" />
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF6F00</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!-- All colours in the list_item.xml file-->
+    <color name="very_light_grey">#ECEFF1</color>
+    <color name="very_dark_grey">#2B3D4D</color>
+
+    <!-- All colours in the activity_news_app_main.xml-->
+    <color name="grey">#616161</color>
+
+    <!-- All the colours in the box_layout.xml in the drawable folder-->
+    <color name="dark_orange">#FF6F00</color>
+    <color name="light_orange">#FF8F00</color>
+</resources>

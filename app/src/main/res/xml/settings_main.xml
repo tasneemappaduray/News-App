@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/news_title">
+
+    <ListPreference
+        android:defaultValue="@string/article_category_default"
+        android:entries="@array/settings_order_by_labels"
+        android:entryValues="@array/settings_section_by_values"
+        android:key="@string/article_category_key"
+        android:title="@string/select_news" />
+
+</PreferenceScreen>
